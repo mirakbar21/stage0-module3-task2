@@ -18,12 +18,12 @@ class NamingConventionTest {
         List<String> strings = Files.readAllLines(path);
         List<String> result = strings.stream()
                 .filter(line ->
-                                line.contains("variable ") ||
-                                line.contains("variable_one") ||
+                                line.contains("x1") ||
+                                line.contains("variableOne") ||
                                 line.contains("variableTwo") ||
-                                line.contains("variable_three") ||
-                                line.contains("VARIABLE_FOUR") ||
-                                line.contains("VARIABLE_FIVE") ||
+                                line.contains("variableThree") ||
+                                line.contains("VAL_FOUR") ||
+                                line.contains("VAL_FIVE") ||
                                 line.contains("variableSix") ||
                                 line.contains("variableSeven") ||
                                 line.contains("variableEight"))
