@@ -6,11 +6,11 @@ public class AdvancedNamingConvention {
     private int age;
     private int phoneNumber;
 
-    void callByAge(int age) {
-        //some code
+    static void callByAge(int age) {
+        // some code
     }
 
-    void callByNumber(int phoneNumber) {
-        //some code
+    static void callByNumber(int phoneNumber) {
+        // some code
     }
 }
