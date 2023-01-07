@@ -12,8 +12,9 @@ import java.util.stream.Collectors;
 import static org.junit.jupiter.api.Assertions.*;
 
 class NamingConventionTest {
+
     @Test
-    void containsUpdatedVariableNamesAccordingToConvention() throws IOException {
+    void testContainsUpdatedVariableNamesAccordingToConvention() throws IOException {
         Path path = Paths.get("src/main/java/lang/print/gaps/task2/NamingConvention.java");
         List<String> strings = Files.readAllLines(path);
         List<String> result = strings.stream()
